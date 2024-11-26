@@ -69,7 +69,7 @@ def save_to_csv(dict_date, filename="employees_data.csv"):
         writer.writerows(dict_date)  # Записати дані
 
 # Генерація даних
-employees = generate_employees(20000)
+employees = generate_employees(500)
 save_to_csv(employees)
 
 
